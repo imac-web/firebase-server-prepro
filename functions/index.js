@@ -5,7 +5,9 @@ const stats = require('./https/stats.function.js')
 exports.getStats = stats.getStats
 
 const tests = require('./https/tests.function.js')
-exports.sendTestToDB = tests.sendTestToDB
+exports.sendMotricityTestToDB = tests.sendMotricityTestToDB
+exports.sendAttentionTestToDB = tests.sendAttentionTestToDB
+exports.sendThinkingTestToDB = tests.sendThinkingTestToDB
 
 //const watchers = require('./triggers/watchers.function')
 //exports.watchTentatives = watchers.watchTentatives
